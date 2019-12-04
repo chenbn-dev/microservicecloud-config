@@ -43,6 +43,7 @@ info:
   app.name: atguigu-microservicecloud
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
+  build.version: $project.version$
   
 ---
 server:
@@ -85,5 +86,4 @@ info:
   app.name: atguigu-microservicecloud
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
-  build.version: $project.version$
   build.version: $project.version$
